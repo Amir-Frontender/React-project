@@ -1,0 +1,19 @@
+.nav{
+    padding: 25px 0;
+    background: linear-gradient(90.12deg, #FFBEC0 0.69%, #FF96BC 81.58%);
+    margin-bottom: 50px;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 55px;
+}
+.nav__list-link{
+    padding: 25px 35px;
+    color: #000;
+    font-weight: 500;
+    transition: .4s;
+}
+.nav__list-link:hover{
+    background-color: rgba(0, 0, 0, .04);
+}
